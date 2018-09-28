@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+	<div></div>
+	<input type="text" id="inputing" /><button onclick="addMiddle('listItems', document.querySelector('#inputing').value)">Click!</button>
+
+	<button onclick="printArray([1,2,3,4])">create Array</button>
+	<ul id="listItems">
+		<li class="li-item">Teste #1</li>
+		<li class="li-item">Teste #2</li>
+		<li class="li-item">Teste #3</li>
+	</ul>
+
+<script type="text/javascript">
+	
+var abc = ['a', 'b', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'z', 'w'];
+
+var phraseMissingLetters = (e) => {
+
+	return Array.from(e).map( x => {
+		index = abc.indexOf(x);
+		if(index > -1) {
+			abc.splice(index, 1);
+		}
+	});
+}
+
+var discoveryWeek = (d,m,y) => {
+
+	var dateTemp = new Date(y,m-1,d);
+	var week = ['Mon', 'Thu', 'Wed', 'Tue', 'Fri', 'Sat', 'Sun'];
+	return week[dateTemp.getDay()];
+	
+}
+
+
+var expr = "foo";
+
+var obj = {
+  get [expr]() { return "bar"; }
+};
+
+console.log(obj.foo); // "bar"
+
+function addMiddle(ul, text="Text Default") {
+
+	let numberOfItems = document.querySelectorAll(`#${ul} li`).length,
+		middleIndex = Math.round(numberOfItems/2),
+	    element = document.querySelector(`#${ul} li:nth-child(${middleIndex})`);
+	
+	return element.insertAdjacentElement('afterend', element.cloneNode()).textContent = text;
+}
+
+function printArray( arr ) {
+	if(Array.isArray(arr)) {
+		
+			//Elements will be created
+		var wrapperUL = document.createElement("ul"),
+			defaultLI = document.createElement("li"),
+			//Targets
+			elementTarget = document.querySelector("div"),
+			idUL = String( Math.round(new Date()/100) );
+
+		//DOM append
+		elementTarget.appendChild(wrapperUL).setAttribute('id', idUL);
+
+
+		for(var i=1; i <=  arr.length; i++) {
+			console.log(i)
+			document.querySelector("ul").appendChild(defaultLI.cloneNode()).textContent = "Text #"+i;	
+		}
+	}
+}
+
+document.querySelector('#inputing').addEventListener('keyup', function(e){
+	if(e.keyCode == 13) {
+		addMiddle('listItems',e.target.value);
+		this.value = '';
+	}
+});
+
+</script>
+</body>
+</html>
