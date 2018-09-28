@@ -1,0 +1,24 @@
+snc_redis:
+    clients:
+        default:
+            type: predis
+            alias: default
+            dsn: '%env(REDIS_URL)%'
+        doctrine_redis:
+            type: predis
+            alias: doctrine_redis
+            dsn: '%env(REDIS_URL)%'
+    doctrine:
+        metadata_cache:
+            client: doctrine_redis
+            entity_manager: default
+            document_manager: default
+            namespace: "apicga"
+        result_cache:
+            client: doctrine_redis
+            entity_manager: default
+            namespace: "apicga"
+        query_cache:
+            client: doctrine_redis
+            entity_manager: default
+            namespace: "apicga"

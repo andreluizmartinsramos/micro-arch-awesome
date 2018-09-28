@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "integrador-senai-br",
+  "private_key_id": "53975dba4d6e4e4775806dfee5a0287145bd34c0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQn/OafJOEX1GD\n/QtdDjb9ktnceTSGOU3ME1Wt5PTgyGqVZiv7uQBugFCR/B+gqkhglVlCNuJoQ1sW\nk0gatVQ5XFvIaySRdEaMStTZAAlj1Bc5dVrsK4rUf1lV+XVxa1GZqBjf160Pb2Ss\nj19zhSFRXCqigl5kSdSCO8D58n3XcM+xREcJokXfuygbpYGjdjh6IAoqAVwN+KvF\ncVR6oMUVHSCOOLjRA4PQfWQ9gToMutK0xqbim/8FbUd9ic8C5pA9F6L2bFSRH4DE\n3XSDYtB40m7fpfB/W1NZAS6nrDCyvLS/Da9onPd8asJ/byIH2x5vqD5+ABYNDXzx\nZcuh8ZvjAgMBAAECggEAJD2M6yq103pdZjC4Xx9fhRgT+V0ityhQL+Gx8gXCViPq\ng+5eOJmQDiIDHQDvm5DJBuIawcpX9SWyNo86KM2UBmzZUszt6siIkslTBSkg+HL4\n39XXiAweT0CaC7nMYXnzkF4niAbmvLYshl9XhPE88u2wSE+eRwyeOktX//NUUe6q\nA+913WLfIToOCYO+iIN1/SNVYqANe9yHhs9F1g7jnKtlq1dtj9XNeC0xw1e22XFl\nqGXQeAslkLuX/e2gR5X0fkUc+WyhgSFFcVYVMl+R1wCCEVS2UX0oiVkUUEdkNtwt\njVZq45YG7tNkTh1iKzRG40vec9mNNiFuXmA98PodcQKBgQDwI8+eKlIEP0uNdBpu\naKD6Ldp46P/Mz6inzLjL+yIabtA0LybvjSlxvr7oZppXTAUto+/qCKrBBKwoRM7g\nUFJHT6YTSmeOhfeiPYzrCxRKK4COVordAqCed4BQ7E76ayCGPDODofQkO1OaTF7W\nBbiaaw4eRgEIDfnZEz/occo88QKBgQDeZ0vZy61ifSOPMigCQf7A90xnIEFuPB6r\nwoKHL7T0+maM8ZF3yi3k6p0PAMAMAEkCW0U9i8ajf9thorf7YvWyDyBVbjYn8eK+\nUz78QR5MDHAWIAIABTxGQeD7YkGCMHCgfBWcCnV0Mep2NKrO2GaUtnR3XG+Za9G7\nR+DHVVh2EwKBgQDNHDlUhh9Bo3J74sREs7dzmMC3b4Q1wtTyZikdiWZKn4XUXMXr\n7G2Oyvay+BgyIit2HUVpZ3e5n60QRB1TeSed40kdxvqGwKSP/fSkOfVdmKSYbxDy\nzzCzyaxe8khPGjtQjJEPiMBIRigVbc+/DGnt8yy+7NoqsA1MvWVju/WacQKBgQDV\n1bOUQMUAQRmDgNH++b0bg6quLNE8UAmdU3N0z2XJdUhMk6ct6fKeewVve2UrJMsN\nvPuh5VajtTcVdQI4bjmVbf3Epibj2SoNnLSejW236O2MGFJT+rStSIIssZgSuMhR\nRXzxfwzXH3czGAhywJZAvfzVFscmWAhbbQyuG1zmiQKBgA3yGnyUeHWVKd8s7W97\ncpzrCfvAqaPi4InOSA5lZKEZA5ZFn0Y5oPv7qHzsnMSkNOdz/YVBkv3sQyPf9Asi\nXXzgHal87cWBKQjoRkZvMfpbW20OW7p7CRkZNqiXw9CoHzfL6Y8isNcVwcz2X/NP\n+//f790+gKgzGg4TxXs4aF1q\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-senai-integracao@integrador-senai-br.iam.gserviceaccount.com",
+  "client_id": "109794371431301937362",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-senai-integracao%40integrador-senai-br.iam.gserviceaccount.com"
+}

@@ -1,0 +1,12 @@
+header:before {
+    background-color: #268bf1;
+}
+
+#swagger-ui.api-platform .info .title {
+    color: #268bf1;
+}
+
+#swagger-ui.api-platform .btn.execute {
+    background-color: #268bf1;
+    border-color: #268bf1;
+}

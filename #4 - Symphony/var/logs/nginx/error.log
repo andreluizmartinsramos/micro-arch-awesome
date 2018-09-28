@@ -1,0 +1,5 @@
+2018/06/15 01:01:07 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2018/06/15 01:04:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2018/06/15 14:18:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2018/06/15 15:00:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2018/06/15 15:00:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15

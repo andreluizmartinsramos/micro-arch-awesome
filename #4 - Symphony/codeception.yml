@@ -1,0 +1,45 @@
+# suite config
+params:
+    - .env
+
+suites:
+    api:
+        actor: ApiTester
+        path: .
+        modules:
+            enabled:
+                - REST
+            config:
+                REST:
+                  url: /api
+                  depends: PhpBrowser
+                PhpBrowser:
+                  url: http://localhost:8080
+                  headers:
+                      Authorization: '%API_TEST_AUTHORIZATION%'
+                      Content-Type: application/json
+paths:
+    tests: tests
+    output: tests/_output
+    data: tests/_data
+    support: tests/_support
+
+settings:
+    colors: true
+    memory_limit: 1024M
+    shuffle: false
+    lint: true
+
+extensions:
+    enabled:
+        - Codeception\Extension\PhpBuiltinServer
+    config:
+      Codeception\Extension\PhpBuiltinServer:
+        hostname: localhost
+        port: 8080
+        autostart: true
+        documentRoot: public
+        router: public/index.php
+        directoryIndex: index.php
+        startDelay: 1
+        suites: ['api']

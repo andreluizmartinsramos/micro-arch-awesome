@@ -1,0 +1,4 @@
+jms_serializer:
+    visitors:
+        json:
+            options: 0

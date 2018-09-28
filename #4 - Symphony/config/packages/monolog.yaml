@@ -1,0 +1,7 @@
+monolog:
+    channels: ['access_api']
+    handlers:
+        access_api:
+            type: rotating_file
+            path: "%kernel.logs_dir%/access_api.log"
+            channels: ['access_api']

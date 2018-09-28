@@ -1,0 +1,19 @@
+nelmio_api_doc:
+    areas:
+        path_patterns: # an array of regexps
+            - ^/api(?!/doc$)
+    documentation:
+        host: api-gca.azurewebsites.net
+        schemes: [https]
+        info:
+            title: Api Senai / Google Console Admin
+            description: Api direcionado às DR para gerenciamentos de usuários no console
+            version: 1.0.0
+        securityDefinitions:
+            Bearer:
+                type: apiKey
+                description: 'Value: {jwt}'
+                name: Authorization
+                in: header
+        security:
+            - Bearer: []
